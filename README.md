@@ -30,10 +30,29 @@
 3. В поле distance вводимо d
 4. Після цього отримуємо об'ємну фігуру
    <img width="1920" height="1032" alt="3d_obj" src="https://github.com/user-attachments/assets/64a65710-be03-459f-acf0-ce7c6073fb91" />
-5. Натискаємо Create –> Mirror 
-6. Виставлляємо переметри
-   Object Type: Bodies
-7. Натиснувши ОК отримуємо половину виконаного виробу
-8. Повторяємо попередні кроки віддзерклюючи всю поточну деталь по внутрішній площині
+#Заокруглення кутів
+1. Натискаємо Modify –> Fillet
+2. Обираємо кути, які потрібно скруглити та виставляємо радіус скуглення d/2
+ <img width="1920" height="1032" alt="image" src="https://github.com/user-attachments/assets/51baa7f5-735c-4dad-a0cb-c21236f43df4" />
+3. Тепер ми отримали готову четвертину нашої деталі, далі ми перетворимо її у повноцінну
+4. Натискаємо Create –> Mirror 
+5. Виставлляємо переметри як на скріншоті
+   <img width="1920" height="1032" alt="image" src="https://github.com/user-attachments/assets/526e64f9-a373-4294-bb06-59004fd23c4a" />
+6. Натиснувши ОК отримуємо половину виконаного виробу
+7. Повторяємо попередні кроки віддзерклюючи всю поточну деталь по внутрішній площині
+<img width="1920" height="1032" alt="image" src="https://github.com/user-attachments/assets/5d7d4a51-1c78-4ea4-ac90-7f53f1aaa3db" />
 
-# Скруглення кутів
+#Додавання вдавленого тексту на виріб
+1. Щоб додати текст потрібно обрати площину, та натиснути Create Sketch
+2. Далі Create –> Text
+   <img width="1920" height="1032" alt="image" src="https://github.com/user-attachments/assets/896090c4-4253-4be2-86da-89458c039f10" />
+3. Виставляємо доданий текст за бажанням на деталі та натискаємо ОК
+4. Потім вибираємо скетч з текстом та Create –> Extrude
+5. В параметрах буде -4, щоб текст був наскрізним
+   <img width="1920" height="1032" alt="image" src="https://github.com/user-attachments/assets/5aeec234-7635-42d6-a603-f55a5950547a" />
+6. Далі я додав ще один надпис, але його товщина вдавлення становить -d/2, що дорівнює 2мм.
+7. Виконавши такі ж самі маніпуляції ми отримаємо наступний виріб.
+   <img width="1920" height="1032" alt="image" src="https://github.com/user-attachments/assets/0fe7fdc3-b8f7-468e-8a90-59cc85bc5c0b" />
+
+
+
